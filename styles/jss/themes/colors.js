@@ -1,0 +1,9 @@
+export const backgroundLightGray = "#f8f9fa";
+export const primaryMain = "#4a5562";
+export const primaryLight = "#515d6a";
+export const secondaryMain = "#d9232d";
+export const secondaryLighter = "#f8d1d3";
+export const textMainGray = "#556270";
+export const textLightGray = "#aaaaaa";
+export const textDarkGray = "#444444";
+export const blueMain = "#27aae1";
