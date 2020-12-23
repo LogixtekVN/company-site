@@ -40,7 +40,7 @@ export default function Header(props) {
   const router = useRouter();
   let { query, asPath } = router;
   // get language root
-  let currLanguage = query.language ? query.language : asPath.split("/")[1];
+  let currLanguage = query.language ? query.language : 'en';
 
   const [isOpenMenu, setIsOpenMenu] = useState(false);
   const [anchorDropdown, setAnchorDropdown] = React.useState(false);
